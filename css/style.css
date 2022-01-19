@@ -1,0 +1,24 @@
+body {
+    color: rgb(136, 136, 136);
+}
+.orange {
+    color: rgb(227, 143, 66);
+}
+.gray {
+    background-color: rgb(240, 240, 240);
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(227, 143, 66);
+    background-color: rgb(240, 240, 240);
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button:focus {
+    border-color: unset;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button:hover {
+    text-decoration: underline;
+}
